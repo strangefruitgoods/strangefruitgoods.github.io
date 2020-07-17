@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #324D5E;
+}
+
+.header{
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position:top;
+}
+
+.logo-box{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo{
+    height: 250px;
+}
+
+.mailchimp{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 64%;
+}
+
+.instagram{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 75%;
+}
+
+.instaimg{
+   height: 80px;
+}
+
+.button{
+    background-color: #324D5E !important;
+}
+
+.button:hover{
+    background-color: red !important;
+}
+
+@media only screen and (max-width:400px){
+    .logo-box{
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .mailchimp{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 400px;
+    }
+    .instagram{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 500px;
+    }
+
+}
